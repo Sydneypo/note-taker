@@ -2,22 +2,25 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sydneypo/note-taker.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sydneypo/note-taker/issues"
   },
   "homepage": "https://github.com/Sydneypo/note-taker#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "devDependencies": {}
+  
 }
